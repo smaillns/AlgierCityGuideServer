@@ -1,0 +1,19 @@
+{
+  "name": "server_algiers-city-guide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smaillns/Algiers-City-Guide-Server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smaillns/Algiers-City-Guide-Server/issues"
+  },
+  "homepage": "https://github.com/smaillns/Algiers-City-Guide-Server#readme"
+}
