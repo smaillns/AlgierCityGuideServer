@@ -1,5 +1,7 @@
 var express = require("express");
 var mysql = require("mysql");
+//const { Pool } = require('pg');
+
 var app = express();
 var bodyParser = require('body-parser');
 app.use(bodyParser.json());
@@ -11,7 +13,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 //database connection
 var connection = mysql.createConnection({
-    host     : 'localhost',
+    host     : '35.224.203.206',
     user     : 'root',
     password : 'smail',
     database:'algierscityguide'
